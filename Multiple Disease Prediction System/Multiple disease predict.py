@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Feb  7 20:12:12 2023
-
-@author: Admin
-"""
-
 import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
@@ -13,11 +6,14 @@ from streamlit_option_menu import option_menu
 #Loading the saved models
 
 
-diabetes_model = pickle.load(open('C:/Users/Admin/Desktop/Multiple Disease Prediction System/Saved models/diabetes_model.sav','rb'))
+diabetes_model = pickle.load(open('C:\\Users\\Rhitik\\Desktop\\project\\Multiple-Disease-Prediction-System\\Saved models\\diabetes_model.sav', 'rb'))
 
-heart_disease_model = pickle.load(open('C:/Users/Admin/Desktop/Multiple Disease Prediction System/Saved models/heart_disease_model.sav','rb'))
+heart_disease_model = pickle.load(open('C:\\Users\\Rhitik\\Desktop\\project\\Multiple-Disease-Prediction-System\\Saved models\\heart_disease_model.sav', 'rb'))
 
-parkinsons_model = pickle.load(open('C:/Users/Admin/Desktop/Multiple Disease Prediction System/Saved models/parkinsons_model.sav','rb'))
+parkinsons_model = pickle.load(open('C:\\Users\\Rhitik\\Desktop\\project\\Multiple-Disease-Prediction-System\\Saved models\\parkinsons_model.sav', 'rb'))
+
+
+
 
 
 #Sidebar for navigation
